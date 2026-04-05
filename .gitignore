@@ -1,8 +1,28 @@
 
+# Project Specific (Data & Models)
+/data/
+/models/
 
-__pycache__
-*.pyc
 
-/data
-/models
-/venv
+# Python Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Virtual Environments
+/venv/
+/env/
+/.venv/
+/.env/
+
+
+# Environments & Secrets
+.env
+.env.local
+.env.*.local
+
+
+# VS Code
+.vscode/
+*.code-workspace
